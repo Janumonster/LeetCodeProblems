@@ -1,4 +1,6 @@
-# test
+# 插入图片
+
+<br><div align="center"> <img src="a.jpg"/> </div><br>
 
 ## test
 
