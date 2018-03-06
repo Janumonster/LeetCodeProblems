@@ -1,6 +1,8 @@
 package Array;
 
 /**
+ *
+ * 475
  * 先找和house距离最小的heater，在从中选出最的的distance
  * 但时间复杂度过高
  * 网友解法备注在后
@@ -45,7 +47,7 @@ public class Heaters {
         int result = Integer.MIN_VALUE;
 
         for (int house : houses) {
-        int index = Arrays.binarySearch(heaters, house);---------------------找出heater中不大于house的下标
+        int index = Arrays.binarySearch(heaters, house);------------------找出heater中不大于house的下标，避免循环节约时间
         if (index < 0) {
         index = -(index + 1);
         }
