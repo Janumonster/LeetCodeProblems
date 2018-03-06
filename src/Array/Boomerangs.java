@@ -13,7 +13,7 @@ public class Boomerangs {
     public int numberOfBoomerangs(int[][] points) {
         HashMap<Integer,Integer> distance=new HashMap<Integer, Integer>();
         int num=0;
-//        System.out.println("length:"+points.length);
+
         if (points.length<3)return 0;
         for (int i=0;i<points.length;i++) {
             for (int j=0;j<points.length;j++){
